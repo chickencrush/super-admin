@@ -1,7 +1,7 @@
 {
   "name": "Chicken Crush Owner V6.0.3",
   "short_name": "CC Owner",
-  "description": "Chicken Crush Owner Dashboard dengan login dan input manual",
+  "description": "Chicken Crush Owner Dashboard dengan login dan input manual · Mobile UI 6.0.3.1",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
