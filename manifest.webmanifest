@@ -1,12 +1,12 @@
 {
-  "name": "Chicken Crush Dashboard Owner",
+  "name": "Chicken Crush Owner V6.0.3",
   "short_name": "CC Owner",
   "description": "Chicken Crush Owner Dashboard dengan login dan input manual",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
+  "background_color": "#070b12",
+  "theme_color": "#070b12",
   "orientation": "any",
   "icons": [
     {
