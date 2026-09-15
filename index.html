@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
 
-<title>Chicken Crush Indonesia | Live Revenue Dashboard V6.0.4.4</title>
+<title>Chicken Crush Indonesia | Live Revenue Dashboard V6.0.4.5</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <style>
@@ -1498,7 +1498,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 @media(max-width:900px){.sidebar-nav{grid-template-columns:repeat(6,minmax(0,1fr))!important}.sidebar-label,body.sidebar-collapsed .sidebar-label{font-size:6.6px!important}.owner-auth-card{border-radius:24px!important;background:linear-gradient(180deg,#101e31,#091523)!important;border-color:rgba(255,255,255,.08)!important}.owner-auth-logo{width:68px!important;height:68px!important}.owner-auth-brand h2{font-size:18px!important}.owner-auth-field input{height:46px!important;border-radius:13px!important}.owner-auth-btn{height:46px!important;border-radius:13px!important;background:linear-gradient(135deg,#ed1c24,#c6171e)!important}}
 
 /* =========================================================
-   V6.0.4.4 — MOBILE WIDTH / RESPONSIVE HOTFIX
+   V6.0.4.5 — MOBILE WIDTH / RESPONSIVE HOTFIX
    Ensures all app pages use the full phone viewport.
 ========================================================= */
 @media (max-width:900px){
@@ -1562,7 +1562,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   .sidebar-label,body.sidebar-collapsed .sidebar-label{font-size:6.5px!important;}
 }
 /* =========================================================
-   V6.0.4.4 — MODERN APP LOADING
+   V6.0.4.5 — MODERN APP LOADING
 ========================================================= */
 .app-loading-6032{
   position:fixed;inset:0;z-index:20000;
@@ -1633,7 +1633,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V6.0.4.4 — DESKTOP COLLAPSIBLE NAV + MODERN REFRESH
+   V6.0.4.5 — DESKTOP COLLAPSIBLE NAV + MODERN REFRESH
 ========================================================= */
 
 /* Desktop sidebar collapse fix: overrides the later !important desktop shell. */
@@ -1888,11 +1888,11 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V6.0.4.4 — WEEKLY COMPARISON SLIDE
+   V6.0.4.5 — WEEKLY COMPARISON SLIDE
 ========================================================= */
 
 /* =========================================================
-   V6.0.4.4 — WEEKLY COMPARISON CLARITY REDESIGN
+   V6.0.4.5 — WEEKLY COMPARISON CLARITY REDESIGN
 ========================================================= */
 .weekly-simple-hero{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;padding:24px 26px;margin-bottom:12px;border:1px solid rgba(143,164,190,.13);border-radius:21px;background:linear-gradient(145deg,rgba(14,30,51,.98),rgba(8,21,36,.98));box-shadow:0 14px 42px rgba(0,0,0,.16)}
 .weekly-simple-hero h2{font-size:25px;letter-spacing:-.55px;margin-top:4px;color:#f5f8fc}.weekly-simple-hero p{max-width:850px;margin-top:8px;color:#8395ad;font-size:10px;line-height:1.65}.weekly-simple-hero p b{color:#c9d7e8}.weekly-simple-meta{display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:170px}
@@ -1908,7 +1908,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 @media(max-width:520px){.weekly-week-cards{grid-template-columns:1fr}.weekly-week-card{display:grid;grid-template-columns:1fr auto;column-gap:12px}.weekly-week-head,.weekly-week-status,.weekly-week-values,.weekly-week-result{grid-column:1/-1}.weekly-summary-card strong{font-size:14px}}
 
 /* =========================================================
-   V6.0.4.4 — FAST MINIMAL LOADING
+   V6.0.4.5 — FAST MINIMAL LOADING
 ========================================================= */
 .app-loading-6032{
   position:fixed;inset:0;z-index:20000;
@@ -1961,7 +1961,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V6.0.4.4 — CLEAN OWNER AUTH CHECK
+   V6.0.4.5 — CLEAN OWNER AUTH CHECK
 ========================================================= */
 .owner-auth-overlay{
   background:#070b12!important;
@@ -2051,8 +2051,8 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   <div class="topbar-left">
     <img class="topbar-logo" src="cc-logo.png" alt="Chicken Crush">
     <div class="topbar-brand">
-      <div class="topbar-title">Chicken Crush Indonesia <span class="v603-badge">V6.0.4.4</span></div>
-      <div class="topbar-sub" id="periodSubtitle">Performance Dashboard V6.0.4.4 &middot; Agustus 2026</div>
+      <div class="topbar-title">Chicken Crush Indonesia <span class="v603-badge">V6.0.4.5</span></div>
+      <div class="topbar-sub" id="periodSubtitle">Performance Dashboard V6.0.4.5 &middot; Agustus 2026</div>
     </div>
   </div>
   <div class="topbar-right">
@@ -3985,11 +3985,11 @@ function saveUrl(){
   var url=document.getElementById('scriptUrl').value.trim();
   if(!url){alert('Masukkan URL Apps Script terlebih dahulu.');return}
   if(url.indexOf('script.google.com')<0&&!confirm('URL tidak terlihat seperti Google Apps Script Web App. Tetap simpan?'))return;
-  /* V6.0.4.4 uses fixed endpoint */
+  /* V6.0.4.5 uses fixed endpoint */
   hideModal();refreshData().then(function(){startAutoRefresh();refreshAnalytics(false)});
 }
 function disconnectUrl(){
-  /* V6.0.4.4 fixed endpoint cannot be disconnected */
+  /* V6.0.4.5 fixed endpoint cannot be disconnected */
   if(autoRefreshTimer)clearInterval(autoRefreshTimer);if(countdownTimer)clearInterval(countdownTimer);
   autoRefreshTimer=countdownTimer=null;appData.source='local';setLiveError('');renderSource();updateStatus('local');
   document.getElementById('scriptUrl').value='';renderConnectionDiagnostic(null);renderProfessionalStatus();hideModal();
@@ -4171,7 +4171,7 @@ function renderPosUsage599(){
 
 
 
-/* ========== WEEKLY COMPARISON V6.0.4.4 — SAME WEEK PREVIOUS MONTH ========== */
+/* ========== WEEKLY COMPARISON V6.0.4.5 — SAME WEEK PREVIOUS MONTH ========== */
 function weeklyMonthMeta6043(period){
   var names=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
   var map={januari:0,februari:1,maret:2,april:3,mei:4,juni:5,juli:6,agustus:7,september:8,oktober:9,november:10,desember:11};
@@ -4545,7 +4545,7 @@ function validateLivePayload(data){
   if(meta.connectorVersion!=='CCI-LIVE-V5.6'){
     return {
       ok:false,
-      message:'Dashboard mendeteksi connector lama. Gunakan Code.gs V6.0.4.4 lalu update deployment Web App.',
+      message:'Dashboard mendeteksi connector lama. Gunakan Code.gs V6.0.4.5 lalu update deployment Web App.',
       meta:meta
     };
   }
@@ -5004,7 +5004,7 @@ window.addEventListener('load',verifyOwnerSession602);
 
 
 
-/* ========== MODERN REFRESH V6.0.4.4 ========== */
+/* ========== MODERN REFRESH V6.0.4.5 ========== */
 var refreshToastTimer6033=null;
 
 function showRefreshToast6033(state,title,sub){
@@ -5064,7 +5064,7 @@ function finishRefresh6033(result,manual){
   }
 }
 
-/* ========== APP LOADING + LIVE RESUME V6.0.4.4 ========== */
+/* ========== APP LOADING + LIVE RESUME V6.0.4.5 ========== */
 function loadingState6032(text){
   var el=document.getElementById('loadingState6032');
   if(el)el.textContent=text||'';
@@ -5079,7 +5079,7 @@ function runInitialLiveSync6032(){
   updateStatus('connecting');
   loadingState6032('Menyinkronkan data terbaru...');
 
-  // V6.0.4.4: splash maksimal sekitar 650 ms. Sinkronisasi tetap lanjut di background.
+  // V6.0.4.5: splash maksimal sekitar 650 ms. Sinkronisasi tetap lanjut di background.
   var splashTimer=setTimeout(function(){hideAppLoading6032(0)},650);
 
   var task=refreshData();
