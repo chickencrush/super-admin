@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
 
-<title>Chicken Crush Indonesia | Live Revenue Dashboard V7.0.0</title>
+<title>Chicken Crush Indonesia | Live Revenue Dashboard V7.1.0</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <style>
@@ -1498,7 +1498,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 @media(max-width:900px){.sidebar-nav{grid-template-columns:repeat(6,minmax(0,1fr))!important}.sidebar-label,body.sidebar-collapsed .sidebar-label{font-size:6.6px!important}.owner-auth-card{border-radius:24px!important;background:linear-gradient(180deg,#101e31,#091523)!important;border-color:rgba(255,255,255,.08)!important}.owner-auth-logo{width:68px!important;height:68px!important}.owner-auth-brand h2{font-size:18px!important}.owner-auth-field input{height:46px!important;border-radius:13px!important}.owner-auth-btn{height:46px!important;border-radius:13px!important;background:linear-gradient(135deg,#ed1c24,#c6171e)!important}}
 
 /* =========================================================
-   V7.0.0 — MOBILE WIDTH / RESPONSIVE HOTFIX
+   V7.1.0 — MOBILE WIDTH / RESPONSIVE HOTFIX
    Ensures all app pages use the full phone viewport.
 ========================================================= */
 @media (max-width:900px){
@@ -1562,7 +1562,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   .sidebar-label,body.sidebar-collapsed .sidebar-label{font-size:6.5px!important;}
 }
 /* =========================================================
-   V7.0.0 — MODERN APP LOADING
+   V7.1.0 — MODERN APP LOADING
 ========================================================= */
 .app-loading-6032{
   position:fixed;inset:0;z-index:20000;
@@ -1633,7 +1633,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V7.0.0 — DESKTOP COLLAPSIBLE NAV + MODERN REFRESH
+   V7.1.0 — DESKTOP COLLAPSIBLE NAV + MODERN REFRESH
 ========================================================= */
 
 /* Desktop sidebar collapse fix: overrides the later !important desktop shell. */
@@ -1888,11 +1888,11 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V7.0.0 — WEEKLY COMPARISON SLIDE
+   V7.1.0 — WEEKLY COMPARISON SLIDE
 ========================================================= */
 
 /* =========================================================
-   V7.0.0 — WEEKLY COMPARISON CLARITY REDESIGN
+   V7.1.0 — WEEKLY COMPARISON CLARITY REDESIGN
 ========================================================= */
 .weekly-simple-hero{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;padding:24px 26px;margin-bottom:12px;border:1px solid rgba(143,164,190,.13);border-radius:21px;background:linear-gradient(145deg,rgba(14,30,51,.98),rgba(8,21,36,.98));box-shadow:0 14px 42px rgba(0,0,0,.16)}
 .weekly-simple-hero h2{font-size:25px;letter-spacing:-.55px;margin-top:4px;color:#f5f8fc}.weekly-simple-hero p{max-width:850px;margin-top:8px;color:#8395ad;font-size:10px;line-height:1.65}.weekly-simple-hero p b{color:#c9d7e8}.weekly-simple-meta{display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:170px}
@@ -1908,7 +1908,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 @media(max-width:520px){.weekly-week-cards{grid-template-columns:1fr}.weekly-week-card{display:grid;grid-template-columns:1fr auto;column-gap:12px}.weekly-week-head,.weekly-week-status,.weekly-week-values,.weekly-week-result{grid-column:1/-1}.weekly-summary-card strong{font-size:14px}}
 
 /* =========================================================
-   V7.0.0 — FAST MINIMAL LOADING
+   V7.1.0 — FAST MINIMAL LOADING
 ========================================================= */
 .app-loading-6032{
   position:fixed;inset:0;z-index:20000;
@@ -1961,7 +1961,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V7.0.0 — CLEAN OWNER AUTH CHECK
+   V7.1.0 — CLEAN OWNER AUTH CHECK
 ========================================================= */
 .owner-auth-overlay{
   background:#070b12!important;
@@ -2063,6 +2063,32 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 @media(max-width:520px){.smart-kpi-grid{grid-template-columns:1fr 1fr}.smart-kpi{padding:11px}.smart-kpi strong{font-size:13px}.smart-data-grid{grid-template-columns:1fr 1fr}}
 
+/* =========================================================
+   V7.1 — CLEAN DASHBOARD + MEDIA BAR + CHICKEN REFRESH
+========================================================= */
+.media-bar-shell{position:relative;height:300px;min-height:260px}
+.data-note:empty{display:none!important}
+.dashboard-view .data-note{display:none!important}
+.trend-section-head{margin-bottom:9px!important}
+.trend-section-head .section-title{margin-bottom:0!important}
+.card-title{margin-bottom:11px!important}
+.card-title .scope-badge{font-size:8px!important;padding:4px 8px!important}
+.mini-live{font-size:7px!important;opacity:.68}
+.refresh-modern{min-width:104px!important;padding:0 11px 0 7px!important;gap:6px!important}
+.refresh-modern .refresh-glyph.refresh-chicken-glyph{width:34px!important;height:34px!important;flex:0 0 34px!important}
+.refresh-modern .refresh-chicken-core{width:30px!important;height:30px!important;background:transparent!important;overflow:visible!important}
+.refresh-chicken-img{width:30px;height:30px;display:block;object-fit:contain;filter:drop-shadow(0 3px 7px rgba(0,0,0,.24));transform-origin:center;transition:transform .25s ease,filter .25s ease}
+.refresh-modern:hover .refresh-chicken-img{transform:scale(1.08) rotate(-2deg);filter:drop-shadow(0 5px 9px rgba(0,0,0,.3))}
+.refresh-modern.loading .refresh-chicken-img{animation:refreshChickenPulse710 .8s ease-in-out infinite}
+.refresh-modern .refresh-ring{inset:1px!important}
+@keyframes refreshChickenPulse710{0%,100%{transform:scale(.94)}50%{transform:scale(1.06)}}
+@media(max-width:900px){
+  .media-bar-shell{height:275px}
+  .refresh-modern{min-width:38px!important;width:38px!important;height:38px!important;padding:0!important;border-radius:12px!important}
+  .refresh-modern .refresh-glyph.refresh-chicken-glyph{width:34px!important;height:34px!important}
+  .refresh-modern .refresh-chicken-core,.refresh-chicken-img{width:31px!important;height:31px!important}
+}
+
 </style>
 <!-- V5.9.3 Sidebar Navigation: input dipisahkan ke Input Center; growth & day-count fixed -->
 </head>
@@ -2124,8 +2150,8 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   <div class="topbar-left">
     <img class="topbar-logo" src="cc-logo.png" alt="Chicken Crush">
     <div class="topbar-brand">
-      <div class="topbar-title">Chicken Crush Indonesia <span class="v603-badge">V7.0.0</span></div>
-      <div class="topbar-sub" id="periodSubtitle">Performance Dashboard V7.0.0 &middot; Agustus 2026</div>
+      <div class="topbar-title">Chicken Crush Indonesia <span class="v603-badge">V7.1.0</span></div>
+      <div class="topbar-sub" id="periodSubtitle">Performance Dashboard V7.1.0 &middot; Agustus 2026</div>
     </div>
   </div>
   <div class="topbar-right">
@@ -2135,9 +2161,9 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
       <span id="statusText">Mode Lokal</span>
     </div>
     <button class="btn-refresh refresh-modern" id="btnRefresh" onclick="refreshData(true)" title="Sinkronkan data sekarang" aria-label="Sinkronkan data sekarang">
-      <span class="refresh-glyph" aria-hidden="true">
+      <span class="refresh-glyph refresh-chicken-glyph" aria-hidden="true">
         <span class="refresh-ring"></span>
-        <span class="refresh-core">&#8635;</span>
+        <span class="refresh-core refresh-chicken-core"><img src="refresh-chicken.png" class="refresh-chicken-img" alt=""></span>
       </span>
       <span class="refresh-label">Refresh</span>
     </button>
@@ -2326,9 +2352,9 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 
 <!-- DAILY + MEDIA -->
 <div class="trend-section-head">
-  <div class="section-title">Tren Harian & Media Penjualan</div>
+  <div class="section-title">Performa Penjualan</div>
   <div class="trend-scope-wrap">
-    <span class="trend-scope-label">Tampilan</span>
+    
     <select id="trendScopeSelect" class="trend-scope-select" onchange="onTrendScopeChange595()">
       <option value="ALL">Semua Outlet</option>
       <option value="PUSAT">Khusus Pusat</option>
@@ -2341,7 +2367,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 <div class="row row-65-35">
   <div class="card">
     <div class="card-title">
-      <span id="dailyTitle">Tren Omset Harian &mdash; Agustus 2026</span>
+      <span id="dailyTitle">Omset Harian</span>
       <span id="dailyScopeBadge" class="scope-badge">Semua Outlet</span>
     </div>
     <div style="position:relative;height:320px"><canvas id="chartDaily"></canvas></div>
@@ -2353,9 +2379,9 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
       <span id="mediaTitle">Media Penjualan</span>
       <span id="mediaScopeBadge" class="scope-badge">Semua Outlet</span>
     </div>
-    <div style="position:relative;height:280px"><canvas id="chartMedia"></canvas></div>
+    <div class="media-bar-shell"><canvas id="chartMedia"></canvas></div>
     <div id="mediaEmptyNote" class="chart-empty-note">Data media Pusat belum tersedia dari koneksi live.</div>
-    <div id="mediaScopeNote" class="data-note">* Data media penjualan mengikuti database media yang tersedia.</div>
+    
   </div>
 </div>
 
@@ -3839,28 +3865,43 @@ function renderDailyMediaCharts595(common){
   destroyChart('media');
   var mediaCanvas=document.getElementById('chartMedia');
   if(mediaCanvas){
-    var mediaLabels=Object.keys(scopedMedia);
-    var mediaVals=mediaLabels.map(function(k){return safeNum(scopedMedia[k])});
+    var mediaRows=Object.keys(scopedMedia).map(function(k){return {label:k,value:safeNum(scopedMedia[k])}})
+      .filter(function(x){return x.value>0})
+      .sort(function(a,b){return b.value-a.value});
+    var mediaLabels=mediaRows.map(function(x){return x.label});
+    var mediaVals=mediaRows.map(function(x){return x.value});
+    var mediaTotal=mediaVals.reduce(function(a,b){return a+safeNum(b)},0);
+    var mediaPalette=['#ed1c24','#fb923c','#ffc400','#22c55e','#4b8df8','#9b74f6','#14b8a6','#f43f5e'];
     charts.media=new Chart(mediaCanvas,{
-      type:'doughnut',
+      type:'bar',
       data:{
         labels:mediaLabels,
         datasets:[{
+          label:'Omset',
           data:mediaVals,
-          backgroundColor:['#ed1c24','#ffc400','#22c55e','#fb923c','#9b74f6','#4b8df8','#14b8a6','#f43f5e'],
-          borderWidth:2,borderColor:'#0d1d31',hoverOffset:7
+          backgroundColor:mediaRows.map(function(_,i){return mediaPalette[i%mediaPalette.length]+'CC'}),
+          borderColor:mediaRows.map(function(_,i){return mediaPalette[i%mediaPalette.length]}),
+          borderWidth:1,
+          borderRadius:8,
+          borderSkipped:false,
+          maxBarThickness:34
         }]
       },
       options:Object.assign({},common,{
-        cutout:'60%',
+        indexAxis:'y',
+        interaction:{intersect:false,mode:'nearest'},
         plugins:{
-          legend:{position:'bottom',labels:{usePointStyle:true,padding:10,font:{size:10}}},
+          legend:{display:false},
           tooltip:Object.assign({},tooltipStyle,{callbacks:{
             label:function(x){
-              var t=x.dataset.data.reduce(function(a,b){return a+safeNum(b)},0);
-              return x.label+': '+fmtFull(x.raw)+(t?' ('+(safeNum(x.raw)/t*100).toFixed(1).replace('.',',')+'%)':'');
+              var pct=mediaTotal?((safeNum(x.raw)/mediaTotal)*100):0;
+              return 'Omset: '+fmtFull(x.raw)+' · '+pct.toFixed(1).replace('.',',')+'%';
             }
           }})
+        },
+        scales:{
+          x:{beginAtZero:true,ticks:{callback:fmtShort},grid:gridStyle},
+          y:{grid:{display:false},ticks:{color:'#9bb0c8',font:{size:10,weight:'700'}}}
         }
       })
     });
@@ -4153,11 +4194,11 @@ function saveUrl(){
   var url=document.getElementById('scriptUrl').value.trim();
   if(!url){alert('Masukkan URL Apps Script terlebih dahulu.');return}
   if(url.indexOf('script.google.com')<0&&!confirm('URL tidak terlihat seperti Google Apps Script Web App. Tetap simpan?'))return;
-  /* V7.0.0 uses fixed endpoint */
+  /* V7.1.0 uses fixed endpoint */
   hideModal();refreshData().then(function(){startAutoRefresh();refreshAnalytics(false)});
 }
 function disconnectUrl(){
-  /* V7.0.0 fixed endpoint cannot be disconnected */
+  /* V7.1.0 fixed endpoint cannot be disconnected */
   if(autoRefreshTimer)clearInterval(autoRefreshTimer);if(countdownTimer)clearInterval(countdownTimer);
   autoRefreshTimer=countdownTimer=null;appData.source='local';setLiveError('');renderSource();updateStatus('local');
   document.getElementById('scriptUrl').value='';renderConnectionDiagnostic(null);renderProfessionalStatus();hideModal();
@@ -4339,7 +4380,7 @@ function renderPosUsage599(){
 
 
 
-/* ========== WEEKLY COMPARISON V7.0.0 — SAME WEEK PREVIOUS MONTH ========== */
+/* ========== WEEKLY COMPARISON V7.1.0 — SAME WEEK PREVIOUS MONTH ========== */
 function weeklyMonthMeta6043(period){
   var names=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
   var map={januari:0,februari:1,maret:2,april:3,mei:4,juni:5,juli:6,agustus:7,september:8,oktober:9,november:10,desember:11};
@@ -4852,7 +4893,7 @@ function validateLivePayload(data){
   if(meta.connectorVersion!=='CCI-LIVE-V5.6'){
     return {
       ok:false,
-      message:'Dashboard mendeteksi connector lama. Gunakan Code.gs V7.0.0 lalu update deployment Web App.',
+      message:'Dashboard mendeteksi connector lama. Gunakan Code.gs V7.1.0 lalu update deployment Web App.',
       meta:meta
     };
   }
@@ -5317,7 +5358,7 @@ window.addEventListener('load',verifyOwnerSession602);
 
 
 
-/* ========== MODERN REFRESH V7.0.0 ========== */
+/* ========== MODERN REFRESH V7.1.0 ========== */
 var refreshToastTimer6033=null;
 
 function showRefreshToast6033(state,title,sub){
@@ -5377,7 +5418,7 @@ function finishRefresh6033(result,manual){
   }
 }
 
-/* ========== APP LOADING + LIVE RESUME V7.0.0 ========== */
+/* ========== APP LOADING + LIVE RESUME V7.1.0 ========== */
 function loadingState6032(text){
   var el=document.getElementById('loadingState6032');
   if(el)el.textContent=text||'';
@@ -5392,7 +5433,7 @@ function runInitialLiveSync6032(){
   updateStatus('connecting');
   loadingState6032('Menyinkronkan data terbaru...');
 
-  // V7.0.0: splash maksimal sekitar 650 ms. Sinkronisasi tetap lanjut di background.
+  // V7.1.0: splash maksimal sekitar 650 ms. Sinkronisasi tetap lanjut di background.
   var splashTimer=setTimeout(function(){hideAppLoading6032(0)},650);
 
   var task=refreshData();

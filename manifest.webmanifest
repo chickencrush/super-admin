@@ -1,7 +1,7 @@
 {
   "name": "Chicken Crush Smart Dashboard Owner",
   "short_name": "CC Smart Owner",
-  "description": "Chicken Crush Smart Business Dashboard V7.0 \u2014 automatic business analytics",
+  "description": "Chicken Crush Smart Business Dashboard V7.0 \u2014 automatic business analytics \u00b7 V7.1.0",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
