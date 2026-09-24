@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
 
-<title>Chicken Crush Indonesia | Live Revenue Dashboard V7.1.0</title>
+<title>Chicken Crush Indonesia | Live Revenue Dashboard V7.2.0.1</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <style>
@@ -287,7 +287,7 @@ body{
   background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.18);color:#fda4a4;font-size:11px
 }
 .live-error.show{display:block}
-.insight-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 18px}
+.insight-strip{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0 0 18px}
 .insight-card{padding:13px 15px;border-radius:13px;background:rgba(255,255,255,.03);border:1px solid var(--border)}
 .insight-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:#718099;font-weight:800}
 .insight-value{font-size:12px;color:#dce5f2;font-weight:700;margin-top:4px}
@@ -1498,7 +1498,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 @media(max-width:900px){.sidebar-nav{grid-template-columns:repeat(6,minmax(0,1fr))!important}.sidebar-label,body.sidebar-collapsed .sidebar-label{font-size:6.6px!important}.owner-auth-card{border-radius:24px!important;background:linear-gradient(180deg,#101e31,#091523)!important;border-color:rgba(255,255,255,.08)!important}.owner-auth-logo{width:68px!important;height:68px!important}.owner-auth-brand h2{font-size:18px!important}.owner-auth-field input{height:46px!important;border-radius:13px!important}.owner-auth-btn{height:46px!important;border-radius:13px!important;background:linear-gradient(135deg,#ed1c24,#c6171e)!important}}
 
 /* =========================================================
-   V7.1.0 — MOBILE WIDTH / RESPONSIVE HOTFIX
+   V7.2.0.1 — MOBILE WIDTH / RESPONSIVE HOTFIX
    Ensures all app pages use the full phone viewport.
 ========================================================= */
 @media (max-width:900px){
@@ -1562,7 +1562,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   .sidebar-label,body.sidebar-collapsed .sidebar-label{font-size:6.5px!important;}
 }
 /* =========================================================
-   V7.1.0 — MODERN APP LOADING
+   V7.2.0.1 — MODERN APP LOADING
 ========================================================= */
 .app-loading-6032{
   position:fixed;inset:0;z-index:20000;
@@ -1633,7 +1633,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V7.1.0 — DESKTOP COLLAPSIBLE NAV + MODERN REFRESH
+   V7.2.0.1 — DESKTOP COLLAPSIBLE NAV + MODERN REFRESH
 ========================================================= */
 
 /* Desktop sidebar collapse fix: overrides the later !important desktop shell. */
@@ -1888,11 +1888,11 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V7.1.0 — WEEKLY COMPARISON SLIDE
+   V7.2.0.1 — WEEKLY COMPARISON SLIDE
 ========================================================= */
 
 /* =========================================================
-   V7.1.0 — WEEKLY COMPARISON CLARITY REDESIGN
+   V7.2.0.1 — WEEKLY COMPARISON CLARITY REDESIGN
 ========================================================= */
 .weekly-simple-hero{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;padding:24px 26px;margin-bottom:12px;border:1px solid rgba(143,164,190,.13);border-radius:21px;background:linear-gradient(145deg,rgba(14,30,51,.98),rgba(8,21,36,.98));box-shadow:0 14px 42px rgba(0,0,0,.16)}
 .weekly-simple-hero h2{font-size:25px;letter-spacing:-.55px;margin-top:4px;color:#f5f8fc}.weekly-simple-hero p{max-width:850px;margin-top:8px;color:#8395ad;font-size:10px;line-height:1.65}.weekly-simple-hero p b{color:#c9d7e8}.weekly-simple-meta{display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:170px}
@@ -1908,7 +1908,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 @media(max-width:520px){.weekly-week-cards{grid-template-columns:1fr}.weekly-week-card{display:grid;grid-template-columns:1fr auto;column-gap:12px}.weekly-week-head,.weekly-week-status,.weekly-week-values,.weekly-week-result{grid-column:1/-1}.weekly-summary-card strong{font-size:14px}}
 
 /* =========================================================
-   V7.1.0 — FAST MINIMAL LOADING
+   V7.2.0.1 — FAST MINIMAL LOADING
 ========================================================= */
 .app-loading-6032{
   position:fixed;inset:0;z-index:20000;
@@ -1961,7 +1961,7 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
 }
 
 /* =========================================================
-   V7.1.0 — CLEAN OWNER AUTH CHECK
+   V7.2.0.1 — CLEAN OWNER AUTH CHECK
 ========================================================= */
 .owner-auth-overlay{
   background:#070b12!important;
@@ -2089,6 +2089,30 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   .refresh-modern .refresh-chicken-core,.refresh-chicken-img{width:31px!important;height:31px!important}
 }
 
+
+/* =========================================================
+   V7.2.0.1 — DATA HEALTH CENTER
+========================================================= */
+.data-health-sidebar-tab .sidebar-icon{color:#7fe0a4}
+.data-health-center{padding:8px 0 34px}
+.data-health-hero{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;padding:18px;border-radius:18px;border:1px solid rgba(52,211,153,.15);background:linear-gradient(145deg,#0d2031,#081522 70%);margin-bottom:11px}
+.data-health-hero h2{margin:4px 0 5px;font-size:19px;color:#f1f7fb}.data-health-hero p{margin:0;font-size:8.5px;line-height:1.55;color:#7f94ad;max-width:760px}.data-health-refresh{height:36px;padding:0 13px;border-radius:10px;border:1px solid rgba(52,211,153,.2);background:rgba(52,211,153,.055);color:#92ebc7;font-size:8px;font-weight:900;cursor:pointer}
+.data-health-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0}.data-health-kpi{padding:13px;border-radius:14px;border:1px solid rgba(255,255,255,.06);background:#0a1929;min-width:0}.data-health-kpi span{display:block;font-size:6.5px;color:#71869f;text-transform:uppercase;font-weight:900}.data-health-kpi strong{display:block;margin-top:6px;font-size:15px;color:#edf5fb}.data-health-kpi small{display:block;margin-top:4px;font-size:7px;color:#71859d}.data-health-kpi.good strong{color:#78e5b9}.data-health-kpi.attention strong{color:#f6c96e}.data-health-kpi.critical strong{color:#ff8d91}
+.data-health-modules{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0}.data-health-module{padding:12px;border:1px solid rgba(255,255,255,.055);border-radius:13px;background:rgba(255,255,255,.018)}.data-health-module-top{display:flex;justify-content:space-between;gap:8px;align-items:center}.data-health-module strong{font-size:8.5px;color:#dce6f1}.data-health-module em{font-style:normal;font-size:7px;color:#7d91a9}.data-health-progress{height:6px;border-radius:999px;background:#091421;margin:9px 0 6px;overflow:hidden}.data-health-progress i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#4b8df8,#34d399)}.data-health-module.attention .data-health-progress i{background:linear-gradient(90deg,#f59e0b,#f6c96e)}.data-health-module.critical .data-health-progress i{background:linear-gradient(90deg,#ef4444,#ff8d91)}.data-health-module small{font-size:6.8px;color:#6f839a}
+.data-health-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:10px;margin-top:10px}.data-health-card{padding:14px;border:1px solid rgba(255,255,255,.055);border-radius:15px;background:#0a1929;min-width:0}.data-health-card-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:9px}.data-health-card-head h3{margin:0;font-size:10px;color:#e8f0f8}.data-health-card-head span{font-size:7px;color:#71859d}
+.data-health-table-wrap{overflow:auto;border-radius:12px;border:1px solid rgba(255,255,255,.045)}.data-health-table{width:100%;border-collapse:collapse;min-width:820px}.data-health-table th{padding:8px 9px;text-align:left;font-size:6.2px;color:#6e829a;text-transform:uppercase;background:#0c1b2c}.data-health-table td{padding:9px;border-top:1px solid rgba(255,255,255,.04);font-size:7.5px;color:#94a7bd}.data-health-table td.num{text-align:right;color:#dce6f0}.health-tag{display:inline-flex;padding:4px 6px;border-radius:999px;font-size:6px;font-weight:900}.health-tag.good{color:#80e6bd;background:rgba(52,211,153,.07)}.health-tag.attention{color:#f6c96e;background:rgba(245,158,11,.07)}.health-tag.critical{color:#ff9296;background:rgba(239,68,68,.07)}.health-tag.missing{color:#9aaabe;background:rgba(148,163,184,.07)}
+.data-missing-list{display:flex;flex-direction:column;gap:6px;max-height:430px;overflow:auto}.data-missing-item{padding:9px;border-radius:10px;border:1px solid rgba(255,255,255,.045);background:rgba(255,255,255,.018)}.data-missing-item strong{display:block;font-size:7.7px;color:#dce6f1}.data-missing-item span{display:block;margin-top:3px;font-size:6.7px;color:#70849c}
+.data-health-empty{padding:18px;text-align:center;color:#6f849c;font-size:8px}
+@media(max-width:900px){.data-health-sidebar-tab{display:none!important}.data-health-kpis,.data-health-modules{grid-template-columns:repeat(2,minmax(0,1fr))}.data-health-grid{grid-template-columns:1fr}.data-health-center{padding-bottom:96px}.data-health-hero{flex-direction:column}.data-health-refresh{width:100%}}
+@media(max-width:520px){.data-health-kpis,.data-health-modules{grid-template-columns:1fr 1fr}.data-health-kpi{padding:10px}.data-health-kpi strong{font-size:13px}}
+
+/* V7.2.0.1 — DOWNLOAD REKAP */
+.data-health-actions{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.data-health-download{height:36px;padding:0 13px;border-radius:10px;border:1px solid rgba(75,141,248,.20);background:rgba(75,141,248,.055);color:#9fc2ff;font-size:8px;font-weight:900;cursor:pointer}
+.data-health-download:hover{background:rgba(75,141,248,.10)}
+@media(max-width:900px){.data-health-actions{width:100%;display:grid;grid-template-columns:1fr 1fr}.data-health-actions button{width:100%}}
+@media(max-width:520px){.data-health-actions{grid-template-columns:1fr}}
+
 </style>
 <!-- V5.9.3 Sidebar Navigation: input dipisahkan ke Input Center; growth & day-count fixed -->
 </head>
@@ -2150,8 +2174,8 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   <div class="topbar-left">
     <img class="topbar-logo" src="cc-logo.png" alt="Chicken Crush">
     <div class="topbar-brand">
-      <div class="topbar-title">Chicken Crush Indonesia <span class="v603-badge">V7.1.0</span></div>
-      <div class="topbar-sub" id="periodSubtitle">Performance Dashboard V7.1.0 &middot; Agustus 2026</div>
+      <div class="topbar-title">Chicken Crush Indonesia <span class="v603-badge">V7.2.0.1</span></div>
+      <div class="topbar-sub" id="periodSubtitle">Performance Dashboard V7.2.0.1 &middot; Agustus 2026</div>
     </div>
   </div>
   <div class="topbar-right">
@@ -2191,6 +2215,10 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
     <button class="dashboard-tab sidebar-tab smart-sidebar-tab" id="tabSmartView"
       onclick="switchMainView('smart')" role="tab" aria-selected="false" data-tip="Smart Analysis">
       <span class="sidebar-icon">✦</span><span class="sidebar-label">Smart Analysis</span>
+    </button>
+    <button class="dashboard-tab sidebar-tab data-health-sidebar-tab" id="tabDataHealthView"
+      onclick="switchMainView('dataHealth')" role="tab" aria-selected="false" data-tip="Data Health">
+      <span class="sidebar-icon">✓</span><span class="sidebar-label">Data Health</span>
     </button>
     <button class="dashboard-tab sidebar-tab" id="tabMenuEsbView"
       onclick="switchMainView('menuPerformance')" role="tab" aria-selected="false" data-tip="Menu Performance">
@@ -2312,12 +2340,13 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
       <div class="smart-home-title" id="smartHomeHeadline700">Menganalisis data bisnis...</div>
       <div class="smart-home-sub" id="smartHomeSub700">Sistem membaca omset, pertumbuhan, performa mingguan, outlet, menu, dan penjualan per waktu secara otomatis.</div>
     </div>
-    <button class="smart-open-btn" type="button" onclick="switchMainView('smart')">Buka Smart Analysis →</button>
+    <div style="display:flex;gap:7px;flex-wrap:wrap"><button class="smart-open-btn" type="button" onclick="switchMainView('smart')">Buka Smart Analysis →</button><button class="smart-open-btn" type="button" onclick="switchMainView('dataHealth')">Data Health →</button></div>
   </div>
   <div class="smart-home-chips">
     <div class="smart-home-chip"><span>Status Bisnis</span><strong id="smartHomeStatus700">-</strong></div>
     <div class="smart-home-chip"><span>Temuan Prioritas</span><strong id="smartHomeAlerts700">0 temuan</strong></div>
     <div class="smart-home-chip"><span>Proyeksi Akhir Bulan</span><strong id="smartHomeForecast700">-</strong></div>
+    <div class="smart-home-chip"><span>Data Control</span><strong id="smartHomeData720">Belum diperiksa</strong></div>
   </div>
 </section>
 
@@ -2560,6 +2589,39 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
       <div class="smart-data-item"><span>Makanan & Minuman</span><strong id="smartDataMix700">-</strong></div>
     </div>
     <div class="smart-note" id="smartCoverageNote700">Analisis hanya menggunakan data yang tersedia pada dashboard saat ini. Area yang belum memiliki data tidak digunakan untuk menyimpulkan penyebab.</div>
+  </div>
+</section>
+
+
+
+<section id="dataHealthView" class="data-health-center hidden-view">
+  <div class="data-health-hero">
+    <div>
+      <div class="page-kicker">DATA CONTROL · V7.2</div>
+      <h2>Data Health & Reconciliation</h2>
+      <p>Memeriksa kelengkapan database dan mencocokkan Omset Harian dengan Kategori Penjualan serta Penjualan per Waktu.</p>
+    </div>
+    <div class="data-health-actions">
+      <button class="data-health-download" type="button" onclick="downloadRekapLaporan7201()">⇩ Download Rekap</button>
+      <button class="data-health-refresh" type="button" onclick="loadDataHealth720(true)">↻ Periksa Ulang Data</button>
+    </div>
+  </div>
+  <div class="data-health-kpis">
+    <div class="data-health-kpi" id="dataHealthScoreCard720"><span>Data Health Score</span><strong id="dataHealthScore720">-</strong><small id="dataHealthScoreSub720">Menunggu pemeriksaan</small></div>
+    <div class="data-health-kpi" id="dataReconScoreCard720"><span>Reconciliation</span><strong id="dataReconScore720">-</strong><small id="dataReconScoreSub720">Omset vs database pendukung</small></div>
+    <div class="data-health-kpi"><span>Hari Terbaca</span><strong id="dataElapsed720">-</strong><small id="dataElapsedSub720">Periode berjalan</small></div>
+    <div class="data-health-kpi" id="dataIssueCard720"><span>Temuan Data</span><strong id="dataIssueCount720">-</strong><small id="dataIssueSub720">Missing / selisih besar</small></div>
+  </div>
+  <div class="data-health-modules" id="dataHealthModules720"></div>
+  <div class="data-health-grid">
+    <div class="data-health-card">
+      <div class="data-health-card-head"><h3>Reconciliation per Outlet</h3><span id="dataReconMeta720">-</span></div>
+      <div class="data-health-table-wrap"><table class="data-health-table"><thead><tr><th>Outlet</th><th>Status</th><th style="text-align:right">Omset</th><th style="text-align:right">Kategori</th><th style="text-align:right">Gap Kategori</th><th style="text-align:right">Waktu</th><th style="text-align:right">Gap Waktu</th><th style="text-align:right">Hari Isu</th></tr></thead><tbody id="dataReconBody720"></tbody></table></div>
+    </div>
+    <div class="data-health-card">
+      <div class="data-health-card-head"><h3>Data yang Perlu Dilengkapi</h3><span id="dataMissingMeta720">-</span></div>
+      <div class="data-missing-list" id="dataMissingList720"></div>
+    </div>
   </div>
 </section>
 
@@ -2861,10 +2923,19 @@ body.sidebar-collapsed .main{margin-left:110px!important;width:min(1540px,calc(1
   </div>
 
   <div class="download-grid">
-    <button class="download-card primary-download" onclick="downloadExcelReport()">
+    <button class="download-card primary-download" onclick="downloadRekapLaporan7201()">
+      <span class="download-icon">REKAP</span>
+      <span class="download-copy">
+        <strong>Rekap Laporan Manajemen</strong>
+        <small>Ringkasan bisnis, outlet, mingguan, media, Data Health, reconciliation, temuan & Smart Insight</small>
+      </span>
+      <span class="download-arrow">→</span>
+    </button>
+
+    <button class="download-card" onclick="downloadExcelReport()">
       <span class="download-icon">XLSX</span>
       <span class="download-copy">
-        <strong>Excel Lengkap</strong>
+        <strong>Laporan Detail Excel</strong>
         <small>Ringkasan, Ranking Outlet, Perbandingan Mingguan, Menu Wilayah, ESB by Time, Harian, Bulanan, Media</small>
       </span>
       <span class="download-arrow">→</span>
@@ -4099,6 +4170,7 @@ function refreshData(manual){
       appData.monthly=adjustMonthlyGrowth582(appData.monthly);
       liveFailCount=0;
       renderAll();
+      loadDataHealth720(false);
 
       var ts=appData.updated?new Date(appData.updated):new Date();
       updateStatus('live',isNaN(ts)?new Date().toLocaleString('id-ID'):ts.toLocaleString('id-ID'));
@@ -4126,6 +4198,15 @@ function refreshData(manual){
     });
   return refreshInFlight;
 }
+
+// V7.2.0.1 — sinkronisasi otomatis dari Smart Import iframe.
+window.addEventListener('message',function(ev){
+  var d=ev&&ev.data||{};
+  if(d.type!=='CCI_SMART_IMPORT_SYNC')return;
+  try{analyticsLastFetched=0;dataHealthFetchedAt720=0}catch(e){}
+  Promise.all([refreshData(true),refreshAnalytics(true),loadDataHealth720(true)]).catch(function(err){console.warn('Smart Import sync:',err)});
+});
+
 function refreshAnalytics(force){
   var url=liveUrl601();
   if(!url)return Promise.resolve(false);
@@ -4194,11 +4275,11 @@ function saveUrl(){
   var url=document.getElementById('scriptUrl').value.trim();
   if(!url){alert('Masukkan URL Apps Script terlebih dahulu.');return}
   if(url.indexOf('script.google.com')<0&&!confirm('URL tidak terlihat seperti Google Apps Script Web App. Tetap simpan?'))return;
-  /* V7.1.0 uses fixed endpoint */
+  /* V7.2.0.1 uses fixed endpoint */
   hideModal();refreshData().then(function(){startAutoRefresh();refreshAnalytics(false)});
 }
 function disconnectUrl(){
-  /* V7.1.0 fixed endpoint cannot be disconnected */
+  /* V7.2.0.1 fixed endpoint cannot be disconnected */
   if(autoRefreshTimer)clearInterval(autoRefreshTimer);if(countdownTimer)clearInterval(countdownTimer);
   autoRefreshTimer=countdownTimer=null;appData.source='local';setLiveError('');renderSource();updateStatus('local');
   document.getElementById('scriptUrl').value='';renderConnectionDiagnostic(null);renderProfessionalStatus();hideModal();
@@ -4380,7 +4461,7 @@ function renderPosUsage599(){
 
 
 
-/* ========== WEEKLY COMPARISON V7.1.0 — SAME WEEK PREVIOUS MONTH ========== */
+/* ========== WEEKLY COMPARISON V7.2.0.1 — SAME WEEK PREVIOUS MONTH ========== */
 function weeklyMonthMeta6043(period){
   var names=['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
   var map={januari:0,februari:1,maret:2,april:3,mei:4,juni:5,juli:6,agustus:7,september:8,oktober:9,november:10,desember:11};
@@ -4663,10 +4744,39 @@ function renderSmartAnalytics700(manual){
 }
 
 
+
+/* ========== V7.2.0.1 DATA HEALTH CENTER ========== */
+var dataHealth720=null,dataHealthLoading720=false,dataHealthFetchedAt720=0;
+function healthPct720(v){return (Number(v||0)).toFixed(1).replace('.',',')+'%'}
+function healthGap720(v){return v==null||!isFinite(v)?'—':((v>=0?'+':'')+(v*100).toFixed(1).replace('.',',')+'%')}
+function healthTone720(v){v=Number(v||0);return v>=95?'good':v>=80?'attention':'critical'}
+function renderDataHealth720(d){
+  if(!d||d.ok!==true)return;
+  dataHealth720=d;var score=Number(d.dataScore||0),recon=Number(d.reconciliationScore||0),st=healthTone720(score),rt=healthTone720(recon);
+  setText('dataHealthScore720',healthPct720(score));setText('dataHealthScoreSub720',(d.modules||[]).filter(function(m){return m.status!=='good'}).length+' modul perlu dilengkapi');
+  setText('dataReconScore720',healthPct720(recon));setText('dataReconScoreSub720',(d.summary&&d.summary.checked||0)+' outlet dapat dibandingkan');
+  setText('dataElapsed720',(d.elapsedDays||0)+' / '+(d.totalDays||0));setText('dataElapsedSub720',d.period||'-');
+  var issues=(d.summary&&d.summary.critical||0)+(d.summary&&d.summary.attention||0)+(d.summary&&d.summary.missingCount||0);setText('dataIssueCount720',String(issues));setText('dataIssueSub720',(d.summary&&d.summary.critical||0)+' kritis · '+(d.summary&&d.summary.attention||0)+' perhatian');
+  [['dataHealthScoreCard720',st],['dataReconScoreCard720',rt],['dataIssueCard720',issues?'attention':'good']].forEach(function(x){var el=document.getElementById(x[0]);if(el)el.className='data-health-kpi '+x[1]});
+  var mod=document.getElementById('dataHealthModules720');if(mod)mod.innerHTML=(d.modules||[]).map(function(m){return '<div class="data-health-module '+esc(m.status)+'"><div class="data-health-module-top"><strong>'+esc(m.label)+'</strong><em>'+healthPct720(m.coverage)+'</em></div><div class="data-health-progress"><i style="width:'+Math.max(0,Math.min(100,Number(m.coverage||0)))+'%"></i></div><small>'+Math.round(m.filled||0).toLocaleString('id-ID')+' / '+Math.round(m.expected||0).toLocaleString('id-ID')+' outlet-hari terisi</small></div>'}).join('');
+  var body=document.getElementById('dataReconBody720');if(body){var rows=(d.reconciliation||[]).slice(0,50);body.innerHTML=rows.length?rows.map(function(r){var label=r.status==='good'?'Sesuai':r.status==='attention'?'Perhatian':r.status==='critical'?'Selisih Besar':'Belum Lengkap';return '<tr><td><strong>'+esc(r.outlet)+'</strong></td><td><span class="health-tag '+esc(r.status)+'">'+label+'</span></td><td class="num">'+fmt(r.omset)+'</td><td class="num">'+(r.category>0?fmt(r.category):'—')+'</td><td class="num">'+healthGap720(r.categoryGap)+'</td><td class="num">'+(r.isEsb&&r.time>0?fmt(r.time):'—')+'</td><td class="num">'+(r.isEsb?healthGap720(r.timeGap):'—')+'</td><td class="num">'+(r.issueDays||0)+'</td></tr>'}).join(''):'<tr><td colspan="8"><div class="data-health-empty">Belum ada data reconciliation.</div></td></tr>'}
+  setText('dataReconMeta720',(d.summary&&d.summary.reconciled||0)+' sesuai · '+(d.summary&&d.summary.checked||0)+' diperiksa');
+  var miss=document.getElementById('dataMissingList720');if(miss){var ml=(d.missing||[]).slice(0,40);miss.innerHTML=ml.length?ml.map(function(x){return '<div class="data-missing-item"><strong>'+esc(x.module)+' · '+esc(x.outlet)+'</strong><span>'+esc(x.date)+' · '+esc(x.reason)+'</span></div>'}).join(''):'<div class="data-health-empty">Tidak ada data yang terdeteksi hilang pada sampel pemeriksaan.</div>'}
+  setText('dataMissingMeta720',(d.summary&&d.summary.missingCount||0)+' temuan');
+  var home=document.getElementById('smartHomeData720');if(home)home.textContent='Data Health '+healthPct720(score)+' · Recon '+healthPct720(recon);
+}
+function loadDataHealth720(manual){
+  var url=liveUrl601();if(!url||dataHealthLoading720)return Promise.resolve(false);if(!manual&&dataHealthFetchedAt720&&Date.now()-dataHealthFetchedAt720<60000){if(dataHealth720)renderDataHealth720(dataHealth720);return Promise.resolve(true)}
+  dataHealthLoading720=true;var btn=document.querySelector('.data-health-refresh');if(btn){btn.disabled=true;btn.textContent='Memeriksa...'}
+  return fetchWithTimeout(addMode582(url,'datahealth'),30000,1).then(function(d){if(!d||d.ok!==true)throw new Error('Data Health tidak dapat dibaca');dataHealthFetchedAt720=Date.now();renderDataHealth720(d);return true}).catch(function(err){console.warn('Data Health:',err);var miss=document.getElementById('dataMissingList720');if(miss)miss.innerHTML='<div class="data-health-empty">Gagal membaca Data Health: '+esc(err.message||err)+'</div>';return false}).finally(function(){dataHealthLoading720=false;if(btn){btn.disabled=false;btn.textContent='↻ Periksa Ulang Data'}})
+}
+
+
 /* ========== VIEW TABS ========== */
 function switchMainView(view){
   var dashboard=document.getElementById('dashboardView');
   var smart=document.getElementById('smartView');
+  var dataHealth=document.getElementById('dataHealthView');
   var menuEsb=document.getElementById('menuEsbView');
   var salesMix=document.getElementById('salesMixView');
   var weeklyCompare=document.getElementById('weeklyCompareView');
@@ -4675,6 +4785,7 @@ function switchMainView(view){
   var download=document.getElementById('downloadView');
   var td=document.getElementById('tabDashboardView');
   var ti=document.getElementById('tabSmartView');
+  var th=document.getElementById('tabDataHealthView');
   var tm=document.getElementById('tabMenuEsbView');
   var ts=document.getElementById('tabSalesMixView');
   var tw=document.getElementById('tabWeeklyCompareView');
@@ -4684,6 +4795,7 @@ function switchMainView(view){
 
   dashboard.classList.toggle('hidden-view',view!=='dashboard');
   smart.classList.toggle('hidden-view',view!=='smart');
+  dataHealth.classList.toggle('hidden-view',view!=='dataHealth');
   menuEsb.classList.toggle('hidden-view',view!=='menuPerformance');
   salesMix.classList.toggle('hidden-view',view!=='salesMix');
   weeklyCompare.classList.toggle('hidden-view',view!=='weeklyCompare');
@@ -4693,6 +4805,7 @@ function switchMainView(view){
 
   td.classList.toggle('active',view==='dashboard');
   ti.classList.toggle('active',view==='smart');
+  th.classList.toggle('active',view==='dataHealth');
   tm.classList.toggle('active',view==='menuPerformance');
   ts.classList.toggle('active',view==='salesMix');
   tw.classList.toggle('active',view==='weeklyCompare');
@@ -4702,6 +4815,7 @@ function switchMainView(view){
 
   td.setAttribute('aria-selected',view==='dashboard'?'true':'false');
   ti.setAttribute('aria-selected',view==='smart'?'true':'false');
+  th.setAttribute('aria-selected',view==='dataHealth'?'true':'false');
   tm.setAttribute('aria-selected',view==='menuPerformance'?'true':'false');
   ts.setAttribute('aria-selected',view==='salesMix'?'true':'false');
   tw.setAttribute('aria-selected',view==='weeklyCompare'?'true':'false');
@@ -4711,6 +4825,7 @@ function switchMainView(view){
 
   if(view==='download')renderDownloadPreview();
   if(view==='smart')renderSmartAnalytics700(false);
+  if(view==='dataHealth')loadDataHealth720(false);
   if(view==='menuPerformance'){renderMenuEsbView();refreshAnalytics(false)}
   if(view==='salesMix')renderSalesMix60();
   if(view==='weeklyCompare')renderWeeklyCompare604();
@@ -4893,7 +5008,7 @@ function validateLivePayload(data){
   if(meta.connectorVersion!=='CCI-LIVE-V5.6'){
     return {
       ok:false,
-      message:'Dashboard mendeteksi connector lama. Gunakan Code.gs V7.1.0 lalu update deployment Web App.',
+      message:'Dashboard mendeteksi connector lama. Gunakan Code.gs V7.2.0.1 lalu update deployment Web App.',
       meta:meta
     };
   }
@@ -5052,6 +5167,118 @@ function makeSheet(aoa,widths){
   if(widths)ws['!cols']=widths.map(function(w){return {wch:w}});
   return ws;
 }
+
+/* ========== V7.2.0.1 DOWNLOAD REKAP LAPORAN ========== */
+function rekapStatusLabel7201(status){
+  status=String(status||'').toLowerCase();
+  return status==='good'?'Sesuai':status==='attention'?'Perhatian':status==='critical'?'Selisih Besar':status==='missing'?'Belum Lengkap':(status||'-');
+}
+function downloadRekapLaporan7201(){
+  if(typeof XLSX==='undefined'){
+    alert('Library Excel belum selesai dimuat. Coba beberapa detik lagi.');
+    return;
+  }
+  var build=function(){
+    var m=computeMetrics();
+    var sm=smartModel700();
+    var dh=dataHealth720||{};
+    var dayCount=getCurrentDayCount();
+    var wb=XLSX.utils.book_new();
+    var issues=(dh.missing||[]).length;
+
+    var summary=[
+      ['CHICKEN CRUSH INDONESIA - REKAP LAPORAN MANAJEMEN'],
+      ['Periode',appData.period||'-'],
+      ['Sumber Data',appData.source==='live'?'Google Sheets Live':(appData.source==='cache'?'Snapshot Live Terakhir':'Data Lokal')],
+      ['Terakhir Update',appData.updated?new Date(appData.updated).toLocaleString('id-ID'):'-'],
+      ['Dibuat',new Date().toLocaleString('id-ID')],
+      [],
+      ['RINGKASAN BISNIS','NILAI'],
+      ['Total Omset',m.total],
+      ['Omset Periode Sebelumnya',m.previous],
+      ['Pertumbuhan '+(m.growthBasis==='runrate'?'Run-rate':'Aktual'),validGrowth592(m.growth)?m.growth:''],
+      ['Rata-rata Harian Jaringan',dayCount?m.total/dayCount:0],
+      ['Rata-rata per Outlet',m.avg],
+      ['Outlet Aktif',m.active],
+      ['Total Outlet',m.rows.length],
+      ['Omset Pusat',m.pNow],
+      ['Omset Mitra',m.mNow],
+      ['Outlet Teratas',m.top?m.top[0]:'-'],
+      [],
+      ['SMART ANALYTICS','NILAI'],
+      ['Status Bisnis',sm.overall||'-'],
+      ['Proyeksi Akhir Bulan',sm.forecast||0],
+      ['Gap Proyeksi vs Bulan Lalu',sm.forecastGap==null?'':sm.forecastGap],
+      ['Jumlah Early Warning',(sm.alerts||[]).length],
+      ['Jumlah Rekomendasi',(sm.recommendations||[]).length],
+      [],
+      ['DATA CONTROL','NILAI'],
+      ['Data Health Score',dh.dataScore==null?'':Number(dh.dataScore)/100],
+      ['Reconciliation Score',dh.reconciliationScore==null?'':Number(dh.reconciliationScore)/100],
+      ['Outlet Diperiksa',dh.summary&&dh.summary.checked!=null?dh.summary.checked:''],
+      ['Outlet Sesuai',dh.summary&&dh.summary.reconciled!=null?dh.summary.reconciled:''],
+      ['Temuan Data',issues]
+    ];
+    var wsSummary=makeSheet(summary,[34,28]);
+    ['B8','B9','B11','B12','B15','B16','B21'].forEach(function(c){if(wsSummary[c])wsSummary[c].z='#,##0'});
+    ['B10','B22','B27','B28'].forEach(function(c){if(wsSummary[c]&&typeof wsSummary[c].v==='number')wsSummary[c].z='0.0%'});
+    XLSX.utils.book_append_sheet(wb,wsSummary,'Ringkasan Manajemen');
+
+    var ranking=[['Ranking','Outlet','Kategori','Grade','Omset','Rata-rata Harian','Periode Sebelumnya','Pertumbuhan','Kontribusi']];
+    getReportRows().forEach(function(r){ranking.push([r[0],r[1],r[2],r[3],r[4],r[5],r[6],r[7],r[8]])});
+    var wsOutlet=makeSheet(ranking,[10,26,14,18,18,18,20,16,16]);
+    for(var i=2;i<=ranking.length;i++){
+      ['E','F','G'].forEach(function(c){if(wsOutlet[c+i])wsOutlet[c+i].z='#,##0'});
+      ['H','I'].forEach(function(c){if(wsOutlet[c+i])wsOutlet[c+i].z='0.0%'});
+    }
+    if(ranking.length>1)wsOutlet['!autofilter']={ref:'A1:I'+ranking.length};
+    XLSX.utils.book_append_sheet(wb,wsOutlet,'Rekap Outlet');
+
+    var meta=weeklyMonthMeta6043(appData.period);
+    var week=[['Minggu',meta.current,meta.previous,'Selisih Rp','Gap %','Status']];
+    weeklyCompareRows604().forEach(function(r){week.push(['Minggu '+r.week,r.actual,r.compare||0,r.diff==null?'':r.diff,r.diffPct==null?'':r.diffPct,weeklyGapText6043(r.diffPct)])});
+    var wsWeek=makeSheet(week,[16,20,20,18,14,26]);
+    for(var w=2;w<=week.length;w++){['B','C','D'].forEach(function(c){if(wsWeek[c+w])wsWeek[c+w].z='#,##0'});if(wsWeek['E'+w])wsWeek['E'+w].z='0.0%'}
+    XLSX.utils.book_append_sheet(wb,wsWeek,'Rekap Mingguan');
+
+    var mediaObj=appData.media||{},mediaTotal=Object.keys(mediaObj).reduce(function(s,k){return s+safeNum(mediaObj[k])},0);
+    var media=[['Media Penjualan','Omset','Kontribusi']];
+    Object.keys(mediaObj).map(function(k){return [k,safeNum(mediaObj[k])]})
+      .sort(function(a,b){return b[1]-a[1]}).forEach(function(x){media.push([x[0],x[1],mediaTotal?x[1]/mediaTotal:0])});
+    var wsMedia=makeSheet(media,[24,20,16]);
+    for(var md=2;md<=media.length;md++){if(wsMedia['B'+md])wsMedia['B'+md].z='#,##0';if(wsMedia['C'+md])wsMedia['C'+md].z='0.0%'}
+    XLSX.utils.book_append_sheet(wb,wsMedia,'Media Penjualan');
+
+    var modules=[['Modul','Coverage','Terisi','Ekspektasi','Status']];
+    (dh.modules||[]).forEach(function(x){modules.push([x.label,Number(x.coverage||0)/100,Number(x.filled||0),Number(x.expected||0),rekapStatusLabel7201(x.status)])});
+    var wsModules=makeSheet(modules,[26,14,14,14,18]);
+    for(var mo=2;mo<=modules.length;mo++){if(wsModules['B'+mo])wsModules['B'+mo].z='0.0%';['C','D'].forEach(function(c){if(wsModules[c+mo])wsModules[c+mo].z='#,##0'})}
+    XLSX.utils.book_append_sheet(wb,wsModules,'Data Health');
+
+    var recon=[['Outlet','Status','Omset Harian','Kategori Penjualan','Gap Kategori','Penjualan per Waktu','Gap Waktu','Hari Isu']];
+    (dh.reconciliation||[]).forEach(function(r){recon.push([r.outlet,rekapStatusLabel7201(r.status),r.omset||0,r.category||0,r.categoryGap==null?'':r.categoryGap,r.time||0,r.timeGap==null?'':r.timeGap,r.issueDays||0])});
+    var wsRecon=makeSheet(recon,[25,18,18,20,14,20,14,12]);
+    for(var rc=2;rc<=recon.length;rc++){['C','D','F'].forEach(function(c){if(wsRecon[c+rc])wsRecon[c+rc].z='#,##0'});['E','G'].forEach(function(c){if(wsRecon[c+rc]&&typeof wsRecon[c+rc].v==='number')wsRecon[c+rc].z='0.0%'})}
+    if(recon.length>1)wsRecon['!autofilter']={ref:'A1:H'+recon.length};
+    XLSX.utils.book_append_sheet(wb,wsRecon,'Reconciliation');
+
+    var missing=[['Modul','Outlet','Tanggal','Temuan']];
+    (dh.missing||[]).forEach(function(x){missing.push([x.module||'',x.outlet||'',x.date||'',x.reason||''])});
+    XLSX.utils.book_append_sheet(wb,makeSheet(missing,[24,24,16,58]),'Temuan Data');
+
+    var smart=[['SMART INSIGHT'],['Status Bisnis',sm.overall||'-'],[],['EARLY WARNING'],['Level','Temuan','Detail']];
+    (sm.alerts||[]).forEach(function(a){smart.push([a.level||'',a.title||'',a.detail||''])});
+    smart.push([],['REKOMENDASI'],['Rekomendasi','Penjelasan']);
+    (sm.recommendations||[]).forEach(function(r){smart.push([r.title||'',r.text||''])});
+    XLSX.utils.book_append_sheet(wb,makeSheet(smart,[20,34,72]),'Smart Insight');
+
+    XLSX.writeFile(wb,'Rekap_Laporan_CCI_'+safeFilePeriod()+'_'+excelDateStamp()+'.xlsx');
+  };
+
+  if(dataHealth720){build();return;}
+  loadDataHealth720(true).then(function(){build()}).catch(function(){build()});
+}
+
 function downloadExcelReport(){
   if(typeof XLSX==='undefined'){
     alert('Library Excel belum selesai dimuat. Coba beberapa detik lagi atau gunakan CSV Ranking.');
@@ -5358,7 +5585,7 @@ window.addEventListener('load',verifyOwnerSession602);
 
 
 
-/* ========== MODERN REFRESH V7.1.0 ========== */
+/* ========== MODERN REFRESH V7.2.0.1 ========== */
 var refreshToastTimer6033=null;
 
 function showRefreshToast6033(state,title,sub){
@@ -5418,7 +5645,7 @@ function finishRefresh6033(result,manual){
   }
 }
 
-/* ========== APP LOADING + LIVE RESUME V7.1.0 ========== */
+/* ========== APP LOADING + LIVE RESUME V7.2.0.1 ========== */
 function loadingState6032(text){
   var el=document.getElementById('loadingState6032');
   if(el)el.textContent=text||'';
@@ -5433,7 +5660,7 @@ function runInitialLiveSync6032(){
   updateStatus('connecting');
   loadingState6032('Menyinkronkan data terbaru...');
 
-  // V7.1.0: splash maksimal sekitar 650 ms. Sinkronisasi tetap lanjut di background.
+  // V7.2.0.1: splash maksimal sekitar 650 ms. Sinkronisasi tetap lanjut di background.
   var splashTimer=setTimeout(function(){hideAppLoading6032(0)},650);
 
   var task=refreshData();
